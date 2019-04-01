@@ -14,3 +14,8 @@ WIN_COMBINATIONS = [
   [0, 4, 8],
   [2, 4, 6]
   ]
+  
+  def won?(board)
+    win_combos = []
+    for each win_combos in WIN_COMBINATIONS
+  end
