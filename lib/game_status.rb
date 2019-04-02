@@ -30,7 +30,7 @@ WIN_COMBINATIONS = [
       elsif pos_1 == 'O' && pos_2 == 'O' && pos_3 == 'O'
         return win_combos
       else
-        return false
+        false
       end
     end
   end
