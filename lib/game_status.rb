@@ -44,7 +44,11 @@ WIN_COMBINATIONS = [
   end
   
   def full?(board)
-    
+    board.length.times do |index|
+      if position_taken(board,index) == false
+        return false
+      end
+    end
   end
   
   def draw?(board)
