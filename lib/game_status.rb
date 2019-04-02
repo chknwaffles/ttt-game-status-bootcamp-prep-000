@@ -27,6 +27,8 @@ WIN_COMBINATIONS = [
       
       if pos_1 == 'X' && pos_2 == 'X' && pos_3 == 'X'
         return win_combos
+      elsif pos_1 == 'O' && pos_2 == 'O' && pos_3 == 'O'
+        return win_combos
       else
         return false
       end
