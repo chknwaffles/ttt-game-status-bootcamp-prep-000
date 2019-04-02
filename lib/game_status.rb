@@ -46,3 +46,7 @@ WIN_COMBINATIONS = [
   def draw?(board)
     
   end
+  
+  def over?(board)
+    
+  end
