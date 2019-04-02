@@ -34,3 +34,11 @@ WIN_COMBINATIONS = [
       end
     end
   end
+  
+  def position_taken?(board, index)
+    
+  end
+  
+  def full?(board)
+    
+  end
